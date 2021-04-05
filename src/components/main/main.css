@@ -1,0 +1,55 @@
+.main {
+    width: 100%;
+    min-height: 85vh;
+    background: url(../../images/shutterstock_764248720.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.board {
+    width: 80%;
+    min-height: 70vh;
+
+    background: url(../../images/shutterstock_41663965.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    
+    border-radius: 10px;
+    border: 0.5px groove burlywood;
+
+    
+    padding: 3%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.btn-success {
+    font-weight: 600;
+}
+
+/* To be continued... */
+.frame {
+    width: 85%;
+    height: 90vh;
+    margin: auto;
+    position: relative;
+    top:-500px;
+    background-size: contain;
+    padding: 1%;
+    z-index: 1;
+}

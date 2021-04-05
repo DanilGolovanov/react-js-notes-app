@@ -1,0 +1,27 @@
+.note {
+    padding: 3% 10%;
+    min-height: 85vh;
+    background: url(../../images/shutterstock_764248720.jpg);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+#title {
+    background-color: #f6f578;
+    margin-bottom: 3%;
+}
+
+#note-body {
+    background-color: #f6f578;
+}
+
+.save {
+    width: 60%;
+    margin: 0 20%;
+}
+
+label {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: gainsboro;
+}

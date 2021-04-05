@@ -1,0 +1,40 @@
+.row-delete {
+    display: inline;
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 1.5%;
+    justify-content: space-between;
+    background-color: #f6f578;
+    border-radius: 7px;
+    font-weight: 500;
+}
+
+.row a {
+    width: 94%;
+    text-decoration: none;
+    color: black;
+    padding: 1.5%;
+}
+
+.row a:hover{
+    width: 94%;
+    color: black;
+    background: #f6d743;
+    border-radius: 7px;
+}
+
+.row button {
+    width: 6%;
+    border-radius: 7px;
+    margin: 0;
+}
+
+.row span {
+    font-weight: 700;
+    font-size: 1rem;
+    color: darkgrey;
+}
